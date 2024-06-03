@@ -1,0 +1,16 @@
+{
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "es5",
+    "markuplint.enable": true,
+    "cSpell.ignoreWords": [
+      "prettier",
+      "esbenp",
+      "vscode",
+      "es5",
+      "markuplint",
+      "stylelint"
+    ]
+  }
+  

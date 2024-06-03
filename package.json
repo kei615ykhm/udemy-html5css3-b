@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@markuplint/html-spec": "^4.8.0",
+    "markuplint": "^4.9.0",
+    "prettier": "^3.3.0",
+    "stylelint": "^16.6.1",
+    "stylelint-config-standard": "^36.0.0"
+  },
+  "scripts": {
+    "format": "prettier --write \"**/*.{css,html}\"",
+    "lint:css": "stylelint '**/*.{css,scss,sass}'",
+    "lint:html": "markuplint \"**/*.html\""
+  }
+}
